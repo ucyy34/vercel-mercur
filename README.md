@@ -46,4 +46,8 @@ NEXT_PUBLIC_SITE_DESCRIPTION="Fleek Markeplace"
 Start storefront
 ```js
 npm run dev
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> a7aa81f2f6f30e61116d6da4849b1d390ed33226
