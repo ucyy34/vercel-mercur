@@ -6,13 +6,13 @@
 Clone the repository
 
 ```js
-git clone https://github.com/mercurjs/mercur-storefront.git
+git clone https://github.com/mercurjs/b2c-marketplace-storefront.git
 ```
 &nbsp;
 
 Go to directory
 ```js
-cd mercur-storefront
+cd b2c-marketplace-storefront
 ```
 &nbsp;
 
@@ -46,4 +46,8 @@ NEXT_PUBLIC_SITE_DESCRIPTION="Fleek Markeplace"
 Start storefront
 ```js
 npm run dev
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> a7aa81f2f6f30e61116d6da4849b1d390ed33226
