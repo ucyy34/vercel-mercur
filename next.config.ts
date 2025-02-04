@@ -2,7 +2,6 @@ import type { NextConfig } from "next"
 import createNextIntlPlugin from "next-intl/plugin"
 
 const nextConfig: NextConfig = {
-  pageExtensions: ["page.tsx", "page.ts", "ts"],
   images: {
     remotePatterns: [
       {
