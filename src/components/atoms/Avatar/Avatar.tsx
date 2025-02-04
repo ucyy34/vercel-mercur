@@ -1,4 +1,6 @@
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
+
 
 import { ProfileIcon } from '@/icons';
 
@@ -26,7 +28,7 @@ export function Avatar({
 
   if (src) {
     return (
-      <img
+      <Image
         src={src}
         alt={alt || 'Avatar'}
         className={cn(
