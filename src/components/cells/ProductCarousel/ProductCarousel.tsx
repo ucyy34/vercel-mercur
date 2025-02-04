@@ -1,0 +1,58 @@
+'use client';
+
+import useEmblaCarousel from 'embla-carousel-react';
+import { HttpTypes } from '@medusajs/types';
+import Image from 'next/image';
+import { ProductCarouselIndicator } from '@/components/molecules';
+import { useScreenSize } from '@/hooks/useScreenSize';
+
+export const ProductCarousel = ({
+  slides = [],
+}: {
+  slides: HttpTypes.StoreProduct['images'];
+}) => {
+  const screenSize = useScreenSize();
+
+  const [emblaRef, emblaApi] = useEmblaCarousel({
+    axis:
+      screenSize === 'xs' ||
+      screenSize === 'sm' ||
+      screenSize === 'md'
+        ? 'x'
+        : 'y',
+    loop: true,
+    align: 'start',
+  });
+
+  return (
+    <div className='embla relative'>
+      <div
+        className='embla__viewport overflow-hidden rounded-xs'
+        ref={emblaRef}
+      >
+        <div className='embla__container h-[350px] lg:h-[700px] flex lg:block'>
+          {(slides || []).map((slide) => (
+            <div
+              key={slide.id}
+              className='embla__slide min-w-0 h-[350px] lg:h-[700px]'
+            >
+              <Image
+                src={slide.url}
+                alt='Product image'
+                width={700}
+                height={700}
+                className='w-full aspect-square object-cover object-center object-center'
+              />
+            </div>
+          ))}
+        </div>
+        {slides?.length ? (
+          <ProductCarouselIndicator
+            slides={slides}
+            embla={emblaApi}
+          />
+        ) : null}
+      </div>
+    </div>
+  );
+};
