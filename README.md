@@ -15,7 +15,7 @@ for <a href="https://github.com/mercurjs/mercur">Mercur</a> - Open Source Market
   </a>
   <!-- Website Links -->
   <p>
-  <a href="#">🛍️ Demo store (coming soon) </a> · <a href="https://mercurjs.com/">Mercur Website</a> · <a href="https://docs.mercurjs.com/">📃 Explore the docs</a> 
+  <a href="https://b2c.mercurjs.com/">🛍️ Demo store </a> · <a href="https://mercurjs.com/">Mercur Website</a> · <a href="https://docs.mercurjs.com/">📃 Explore the docs</a> 
   </p> 
 </div>
 
@@ -23,7 +23,7 @@ for <a href="https://github.com/mercurjs/mercur">Mercur</a> - Open Source Market
 Customizable storefront designed for B2C with all elements including browsing and buying products across multiple vendors at once. 
 
 Ready to go:
--   Home Page - <a href="#">🛍️ Check demo </a>
+-   Home Page - <a href="https://b2c.mercurjs.com/">🛍️ Check demo </a>
 
 Coming soon:
 -   Listing
