@@ -10,12 +10,12 @@ for <a href="https://github.com/mercurjs/mercur">Mercur</a> - Open Source Market
   <a href="#">
     <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
   </a>
-  <a href="https://rigbyjs.com/#contact">
+  <a href="https://mercurjs.com/contact">
     <img alt="Support" src="https://img.shields.io/badge/support-contact%20author-blueviolet.svg" />
   </a>
   <!-- Website Links -->
   <p>
-  <a href="https://b2c.mercurjs.com/">🛍️ Demo store </a> · <a href="https://mercurjs.com/">Mercur Website</a> · <a href="https://docs.mercurjs.com/">📃 Explore the docs</a> 
+  <a href="https://b2c.mercurjs.com/">🛍️ B2C Marketplace Storefront Demo </a> · <a href="https://mercurjs.com/">Mercur Website</a> · <a href="https://docs.mercurjs.com/">📃 Explore the docs</a> 
   </p> 
 </div>
 
@@ -35,7 +35,7 @@ Work in progress:
 
 # Part of Mercur
 
-<a href="https://mercurjs.com/">Mercur</a> is an open source marketplace platform that allows you to create high-quality experiences for shoppers and vendors while having the most popular Open Source commerce platform MedusaJS as a foundation. 
+<a href="https://github.com/mercurjs/mercur">Mercur</a> is an open source marketplace platform that allows you to create high-quality experiences for shoppers and vendors while having the most popular Open Source commerce platform MedusaJS as a foundation. 
 
 Mercur is a platform to start, customize, manage, and scale your marketplace for every business model with a modern technology stack.
 
