@@ -1,3 +1,5 @@
 {
-  "NotFound": "Page not found"
+  "NotFound": "Page not found",
+  "NotFoundMessage": "The page you tried to access does not exist.",
+  "GoToFrontpage": "Go to frontpage"
 }
