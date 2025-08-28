@@ -1,3 +1,5 @@
 {
-  "NotFound": "Sayfa bulunamad\u0131"
+  "NotFound": "Sayfa bulunamadı",
+  "NotFoundMessage": "Erişmeye çalıştığınız sayfa mevcut değil.",
+  "GoToFrontpage": "Ana sayfaya git"
 }
